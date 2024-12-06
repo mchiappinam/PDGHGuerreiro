@@ -1,0 +1,10 @@
+name: PDGHGuerreiro
+main: me.mchiappinam.pdghguerreiro.Main
+version: 1.0
+depends: [SimpleClans,Vault,Legendchat,PDGHEventos,PDGHNoob]
+website: https://hostload.com.br/ & http://pdgh.com.br/
+author: mchiappinam
+commands:
+   guerreiro:
+      description: Info.
+      usage: /<command> ?

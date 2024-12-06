@@ -1,0 +1,41 @@
+###Copyright PDGH Minecraft Servers & HostLoad © 2013-XXXX
+###Todos os direitos reservados
+###Uso apenas para a PDGH.com.br e https://HostLoad.com.br
+###Caso você tenha acesso a esse sistema, você é privilegiado!
+inventario:
+  darItens: false #true=jogador receberá clear e os itens do evento
+  limpar: false
+  limparPocoes: false #true=remove todas as poções ativas do jogador
+  obrigatorioVazio: false #true=não conseguirá entrar no evento com itens no inventário
+  semFome: true #false=o jogador sentirá fome dentro do evento
+comandos:
+  denyEventoOn: #comandos bloqueados com o evento ocorrendo
+  - "/ret"
+  - "/bring"
+autoStart:
+  ativado: true
+  dia: domingo
+  hora: 1700
+premios:
+  tag: '&8[Guerreiro]&f' #Legendchat - {guerreiro}
+  dinheiro: 20000
+timers:
+  preparar:
+    avisos: 20
+    tempoEntre: 30
+  iniciando:
+    avisos: 10
+    tempoEntre: 30
+  finalizando: 30
+jogadoresMinimos: 2 #mínimo de jogadores no evento guerreiro
+arena:
+  entrada: 'world;0;0;0;0;0'
+  saida: 'world;0;0;0;0;0'
+  camarote: 'world;0;0;0;0;0'
+  menor: 'world;0;0;0;0;0'
+  jogadoresMenor: 5 #teleportar para a arena menor se a quantidade de jogadores for igual ou menor que o valor definido.
+vencedor: []
+mensagens:
+  blablabla:
+  - " "
+  - " "
